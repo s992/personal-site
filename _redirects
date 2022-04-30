@@ -1,0 +1,30 @@
+/blog/:year/:month/:date/:slug /blog/:slug 301
+/blog/rxjs-take1-vs-first /blog/rxjs-first-vs-take1
+
+# blogs to original source since we aren't hosting them on this site anymore
+/blog/building-a-github-activity-feed 							https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2011-10-31-building-a-github-activity-feed/index.md 							301
+/blog/integrating-sendgrid-with-your-coldfusion-application 	https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2011-12-07-integrating-sendgrid-with-your-coldfusion-application/index.md 	301
+/blog/programmatically-creating-new-datasource-in-coldfusion 	https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2013-03-20-programmatically-creating-new-datasource-in-coldfusion/index.md 	301
+/blog/chrome-logger-api-for-coldfusion 							https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2013-04-22-chrome-logger-api-for-coldfusion/index.md 							301
+/blog/changes 													https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-06-14-changes/index.md 													301
+/blog/groovy-browser-automation-with-geb 						https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-06-25-groovy-browser-automation-with-geb/index.md 						301
+/blog/quick-tip-angular-debugging 								https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-07-01-quick-tip-angular-debugging/index.md 								301
+/blog/running-the-groovy-console-from-gradle 					https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-07-17-running-the-groovy-console-from-gradle/index.md 					301
+/blog/ratpack-first-impressions 								https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-08-26-ratpack-first-impressions/index.md 								301
+/blog/migrating-octopress-to-a-new-computer 					https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-09-07-migrating-octopress-to-a-new-computer/index.md 					301
+/blog/file-uploads-with-angularjs-and-ratpack-part-1 			https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-09-16-file-uploads-with-angularjs-and-ratpack-part-1/index.md 			301
+/blog/file-uploads-with-angularjs-and-ratpack-part-2 			https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2014-09-17-file-uploads-with-angularjs-and-ratpack-part-2/index.md 			301
+/blog/npm-as-a-build-system-can-be-slightly-annoying 			https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2015-09-21-npm-as-a-build-system-can-be-slightly-annoying/index.md 			301
+/blog/my-schedule-for-midwestjs 								https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2017-08-11-my-schedule-for-midwestjs/index.md 								301
+/blog/rxjs-first-vs-take1 										https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2017-08-12-rxjs-first-vs-take1/index.md 										301
+/blog/keep-your-streams-dry-with-the-let-operator 				https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2017-08-19-keep-your-streams-dry-with-the-let-operator/index.md 				301
+/blog/my-developer-story 										https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2017-09-08-my-developer-story/index.md 										301
+/blog/on-depression 											https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2017-09-20-on-depression/index.md 											301
+/blog/stuff-i've-been-fiddling-with-lately 						https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2018-06-10-stuff-i've-been-fiddling-with-lately/index.md 						301
+/blog/midwest-js-2018-wrap-up 									https://github.com/s992/gatsby-blog/blob/master/src/content/posts/2018-08-11-midwest-js-2018-wrap-up/index.md 									301
+
+
+# Redirect domain aliases to primary domain
+https://www.swalsh.org/* https://swalsh.org/:splat 301!
+https://www.swalsh.dev/* https://swalsh.org/:splat 301!
+https://swalsh.dev/* https://swalsh.org/:splat 301!
